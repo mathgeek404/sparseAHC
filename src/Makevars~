@@ -1,3 +1,5 @@
+CXX=/afs/cs.wisc.edu/s/gcc-5.3.0/amd64_rhel6/bin/g++
+
 ## With Rcpp 0.11.0 and later, we no longer need to set PKG_LIBS as there is
 ## no user-facing library. The include path to headers is already set by R.
 PKG_CXXFLAGS = -std=c++11
